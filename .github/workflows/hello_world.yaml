@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: goodbye world
-        run: echo "goodbye"
+        run: echo "goodbye world!"
         shell: bash
 
 

@@ -3,6 +3,8 @@ name: create a comment on new issues
 on:
   issues:
     types: [opened]
+    branches: 
+      - practice
 
 jobs:
   comment-with-action:
